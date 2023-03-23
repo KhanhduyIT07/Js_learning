@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>
+        heading
+    </h1> -->
+    <h1 class="headingText">
+        HEADING TEXT
+    </h1>
+    <!-- <a>duy</a> -->
+    <script>
+        // Dom
+        var headingElement= document.querySelector('h1')
+        console.log(headingElement);
+//! thêm title
+//? thêm id:  
+//thêm class phải .className
+
+        // headingElement.id="vip"
+        // headingElement.title = "heading"
+        // headingElement.className ="khanduy"
+        // thêm href cho thẻ a
+        // headingElement.href='heading'
+        //? sữ dụng phương thức SET
+            //! headingElement.setAttribute('id','ây di')
+        // headingElement.setAttribute('href', 'getttt')
+        headingElement.title = ('Title-text');
+        // lấy value của class
+        console.log(headingElement.getAttribute('class'));
+        
+        headingElement.setAttribute('data','get-data')
+           console.log(headingElement.getAttribute('data'));
+    </script>
+</body>
+</html>
